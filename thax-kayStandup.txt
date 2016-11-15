@@ -1,0 +1,22 @@
+** as of 11/15**
+
+'standup' --done since last 'standup'
+[thax] invited Karen to onsof; she hasn't had time
+[kay] requested Leslie's availability; not yet --will follow up
+
+'standup' --will have done since last 'standup'
+[thax] research Freshbooks import/export capabilities
+[thax] testing onsof with Karen
+[thax] process (supply chain) breakout (so we can dig into details of what processes need improvement)
+
+'story' as a vendor, I can import hours spent on specific tasks into Freshbooks - need user story in onsof
+
+'standup' --discussion
+process for booking time to keep tasks moving forward
+
+breaking out the end to end process - requirements, steps (big overview) and 'epic user stories'
+
+win business
+get work done
+get paid
+repeat

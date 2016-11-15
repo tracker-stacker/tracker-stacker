@@ -1,0 +1,153 @@
+notes from 11/14/2016
+Exploratory conversations - recorded or taking collaborative notes after the fact. 
+If I have "x" amount of time available on "x day" that can help me schedule to work on "x" amount of time for the following week. 
+
+"Scripts"
+Kay ptu more eloquently - if you can spend x amount of time setting me up with y and z, I can devote _n_ hours to these topics
+
+Scenario 2: ve run into a problem with x; can you help me get unstuck
+
+
+'standup' --done since last 'standup'
+[thax] invited Karen to onsof; she hasn't had time
+[kay] requested Leslie's availability; not yet --will follow up
+
+'standup' --will have done since last 'standup'
+[thax] research Freshbooks import/export capabilities
+[thax] testing onsof with Karen
+[thax] process (supply chain) breakout (so we can dig into details of what processes need improvement)
+
+'story' as a vendor, I can import hours spent on specific tasks into Freshbooks - need user story in onsof
+
+'standup' --discussion
+process for booking time to keep tasks moving forward
+
+breaking out the end to end process - requirements, steps (big overview) and 'epic user stories'
+
+win business
+get work done
+get paid
+repeat
+
+please look through my 
+marblehead to halifax - https://www.marbleheadtohalifax.com
+Peter Frisch (Wachovia - now Wells Fargo?) https://www.linkedin.com/in/peter-frisch-cfp®-2b311624
+David Jegen (FMR Capital --found of Fintech Sandbox) https://www.linkedin.com/in/davidjegen
+
+
+Project management
+I'll think of folks who can do 'informational interviews'
+
+
+-----------------------
+
+notes from 7/6/2016
+
+broadly
+[tc] sharing billing (clients & onso PM)
+- create GAA project in Freshbooks
+ -- [kv] send TC ownsourcing email
+ -- starting up a new ownsourcing Freshbooks account (use ownsourcing email)
+ -- send KV invite
+ -- [kv] add payment info to account
+ -- add major steps as user stories in Jira & as line items
+- 
+[tc] sharing dev plans & line items (external/internal devs)
+IMPORTANT: without analysis, moving quickly and knowing things are not perfect
+-  identify all steps in client-supplied documents
+- 
+
+project reporting: each effort contains the following information in Jira, Freshbooks, client invoice and line items shared with vendors
+epic/major focus: e.g. Q.Admin
+task/user story/line item: e.g. Q.Admin slideshow (advance through submissions during admin)
+subtasks (no line items; add time & date; use comments to describe effort; refer to Jira ticket number & name)
+
+data tools
+atom
+text wrangler - appears to only be for Mac users.
+notepad (notepad ++)
+grep
+
+------------------
+
+prior notes:
+
+client portal
+- requirements gathering
+ -- user stories
+ -- user acceptance testing
+- sitebuilding
+ -- invoice features
+ -- APIs (could be hard going but highly rewarding)
+ -- navigation
+ -- user accounts & permissions
+- documentation & training materials
+
+business operations
+
+project tracking
+
+IT staffing
+- hiring strategy
+- upskilling
+- materials
+- objectives-driven team training plans
+
+general research & writing
+
+disaster recovery strategies
+- preparation (e.g. backup strategy)
+- recovery procedures & resources
+
+- Executive summaries
+ - finding established, current data
+
+- Project tracking summary 
+- what they had in common/did well 
+- what each system lacked
+- things needing improvement 
+
+Plan
+- Kay, Leslie & Karen test instructions
+- Thax fill any gaps in instructions
+- Thax build api for getting line item numbers
+ -- JSON - JavaScript Object Notation
+ -- REST - REpresentational State Transfer
+ 
+ 
+ - Columbia University Medical Center website
+ Goaskalice.com
+
+^^ outline notation
+vv machine-readable notation (JSON)
+
+{"purpose": "see how Thax works the summer with Ownsourcing",
+"projects":[
+    {
+    "project": "client portal",
+        "lineItem": ["requirements gathering",
+        {"epic": 
+            ["user stories","user acceptance testing"]
+        }],
+- sitebuilding
+ -- invoice features
+ -- APIs (could be hard going but highly rewarding)
+ -- navigation
+ -- user accounts & permissions
+- documentation & training materials
+}, {
+    "project": "business operations"
+}, {
+    "project": "project tracking"
+}, {
+    "project": "executive summaries about IT staffing"
+- hiring strategy
+- upskilling
+- materials
+- objectives-driven team training plans
+}
+]
+
+function { // print all sectionHeaders }
+general research & writing
+
