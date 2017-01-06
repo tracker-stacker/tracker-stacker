@@ -1,0 +1,24 @@
+**summary of findings**
+
+Through the testing of multiple time-tracking solutions, frustrations continually surfaced as none seemed to fully meet the business requirements of agile practices. Shortcomings were regularly discovered, and stop-gap measures were implemented to continue effectively using the platforms. In order to get a clearly-defined sense of ongoing business operations, the integration of multiple solutions was required. With each aditional implementation, the fragility of the integration rose. Eventually, more effort was spent on bridging the gaps rather than using the software to gain valuable insights. 
+
+-----------------
+
+**solution requirements**
+
+- ability to import time tracked on other platforms
+- budget management needs
+	-- overall budget vs spent budget
+	-- budget allocated to line items vs spent lien item budget
+- project management needs
+	-- effort prioritization/reallocation
+	-- total time tracked twoard project vs budgeted time
+	-- actual time spent on line items vs budgeted time for line items
+	-- vendor effort and time management
+- project tracking needs
+	-- overview of project progress against budget
+	-- line items completed and in progress
+	-- status of unfininshed line items
+	-- % spent on project, % invoiced to client, % collecsted
+	-- description of completed efforts
+- ability to export costs into clinet-ready invoice 
