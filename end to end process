@@ -42,6 +42,23 @@
 	{ "step": "publish product" },
 	{ "step": "continue tracking bugs after release" },
 	{ "step": "maintain successes while fixing new bugs" }
+]},
+
+{"scenario": "receive payment"},
+{ "steps": [
+	{ "step": "determine confidence level of receiving owed compensation" },
+		{ "questoins_to_consider": [
+			{ "question": "do we have a strong working relationship with the client?" },
+			{ "question": "is client frequently expressing doubt on invoiced line items?" },
+			{ "question": "is client expressing doubt in actual cost of certain line items?" },
+			{ "question": "is client consistently denying OwnSourcing is meeting project needs?" }
+		]},
+	{ "step": "set appropriate billing schedule" },
+	{ "step": "maintain updated costs for accurate invoicing" },
+	{ "step": "send invoices according to determined billing schedule" },
+	{ "step": "continue tracking costs" },
+	{ "step": "confirm receipt of payment" }
+
 ]}
 
 ]
