@@ -1,48 +1,47 @@
 [ 
-{ "process":"end to end process" },
-{ "scenario":"win business" },
+{ "process": "end to end process" },
+{ "scenario": "win business" },
 { "steps": [
-	{ "step":"initial contact with potential client" },
-	{ "step":"discover client business needs" },
-	{ "step":"initial meeting to discuss project" },
+	{ "step": "initial contact with potential client" },
+	{ "step": "discover client business needs" },
+	{ "step": "initial meeting to discuss project" },
 	{ "steps": [
-		{ "step":"discover project lead contact" },
-		{ "step":"is project structure good fit for OwnSourcing?" },
-		{ "step":"discuss benefits of working with OwnSourcing" },
+		{ "step": "discover project lead contact" },
+		{ "step": "is project structure good fit for OwnSourcing?" },
+		{ "step": "discuss benefits of working with OwnSourcing" }
 	]},
-	{ "step":"win business" },
-	{ "step":"establish regular intervals to update on progress" }
-	]
+	{ "step": "win business" },
+	{ "step": "establish regular intervals to update on progress" }
+]
 },
 
-{ "scenario":"make progress on project" },
-{ "steps":[
-	{ "step":"decide project critical requirements" },
-	{ "step":"determine budget" },
-	{ "step":"prioritize project requirements" },
-	{ "step":"allocate budget to requirements" },
-	{ "step":"assign lien items to vendors" },
-	{ "step":"track overall progress" },
+{ "scenario": "make progress on project" },
+{ "steps": [
+	{ "step": "decide project critical requirements" },
+	{ "step": "determine budget" },
+	{ "step": "prioritize project requirements" },
+	{ "step": "allocate budget to requirements" },
+	{ "step": "assign lien items to vendors" },
+	{ "step": "track overall progress" },
 	{ "steps": [
-		{ "step":"track budget spent on line items" },
-		{ "step":"track progress on line items" },
-		{ "step":"track overall budget used" }
-		]},
-	{ "step":"test current project developments" },
+		{ "step": "track budget spent on line items" },
+		{ "step": "track progress on line items" },
+		{ "step": "track overall budget used" }
+	]},
+	{ "step": "test current project developments" },
 	{ "steps": [
-		{ "step":"document bugs" },
-		{ "step":"fix bugs" },
-		{ "step":"maintain successes" }
-		]},
-	{ "step":"update client at regular intervals" },
-	{ "step":"repriortize line items in collaboratoin with client" },
-	{ "step":"reallocate line item budgets as needed" },
-	{ "step":"redistribute line items to vendors" },
-	{ "step":"maintain project successes while continuing progression" },
-	{ "step":"publish product" },
-	{ "step":"continue tracking bugs after release" },
-	{ "step":"maintain successes while fixing new bugs" }
-	]
-},
+		{ "step": "document bugs" },
+		{ "step": "fix bugs" },
+		{ "step": "maintain successes" }
+	]},
+	{ "step": "update client at regular intervals" },
+	{ "step": "repriortize line items in collaboratoin with client" },
+	{ "step": "reallocate line item budgets as needed" },
+	{ "step": "redistribute line items to vendors" },
+	{ "step": "maintain project successes while continuing progression" },
+	{ "step": "publish product" },
+	{ "step": "continue tracking bugs after release" },
+	{ "step": "maintain successes while fixing new bugs" }
+]}
 
 ]
