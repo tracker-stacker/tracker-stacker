@@ -1,5 +1,15 @@
 [ 
 { "process":"end to end process" },
-{ "scenario":"introdcution" },
+{ "scenario":"win business" },
 "steps": [
-{ "step":
+	{ "step":"initial contact with potential client" },
+	{ "step":"discover client business needs" },
+	{ "step":"initial meeting to discuss project" },
+	{ "steps": [
+		{ "step":"discover project lead contact" },
+		{ "step":"is project structure good fit for OwnSourcing?" },
+		{ "step":"discuss benefits of working with OwnSourcing" },
+	]},
+	{ "step":"win business" },
+{ "scenario":"make progress on project" },
+
