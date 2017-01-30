@@ -10,7 +10,8 @@
 		{ "step":"is project structure good fit for OwnSourcing?" },
 		{ "step":"discuss benefits of working with OwnSourcing" },
 	]},
-	{ "step":"win business" }
+	{ "step":"win business" },
+	{ "step":"establish regular intervals to update on progress" }
 	],
 
 { "scenario":"make progress on project" },
@@ -23,4 +24,7 @@
 	{ "step":"track overall progress on line items" },
 	{ "step":"track budget spent on line items" },
 	{ "step":"track overall budget used" },
-	{ "step":"}
+	{ "step":"touch base with client at regular intervals" },
+	{ "step":"repriortize line items as needed" },
+	{ "step":"reallocate line item budgets as needed" },
+	{ "step":"redistribute line items to vendors" },
