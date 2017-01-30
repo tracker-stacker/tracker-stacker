@@ -10,6 +10,17 @@
 		{ "step":"is project structure good fit for OwnSourcing?" },
 		{ "step":"discuss benefits of working with OwnSourcing" },
 	]},
-	{ "step":"win business" },
-{ "scenario":"make progress on project" },
+	{ "step":"win business" }
+	],
 
+{ "scenario":"make progress on project" },
+"steps":[
+	{ "step":"decide project critical requirements" },
+	{ "step":"determine budget" },
+	{ "step":"prioritize project requirements" },
+	{ "step":"allocate budget to requirements" },
+	{ "step":"assign lien items to vendors" },
+	{ "step":"track overall progress on line items" },
+	{ "step":"track budget spent on line items" },
+	{ "step":"track overall budget used" },
+	{ "step":"}
