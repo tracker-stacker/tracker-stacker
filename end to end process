@@ -1,67 +1,66 @@
 [ 
 { "process": "end to end process" },
 { "scenario": "win business" },
-{ "steps": [
-	{ "step": "initial contact with potential client" },
-	{ "step": "discover client business needs" },
-	{ "step": "initial meeting to discuss project" },
 	{ "steps": [
-		{ "step": "discover project lead contact" },
-		{ "step": "is project structure good fit for OwnSourcing?" },
-		{ "step": "discuss benefits of working with OwnSourcing" }
+		{ "step": "initial contact with potential client" },
+		{ "step": "discover client business needs" },
+		{ "step": "initial meeting to discuss project" },
+		{ "steps": [
+			{ "step": "discover project lead contact" },
+			{ "step": "is project structure good fit for OwnSourcing?" },
+			{ "step": "discuss benefits of working with OwnSourcing" }
+		]},
+		{ "step": "win business" },
+		{ "step": "establish regular intervals to update on progress" }
 	]},
-	{ "step": "win business" },
-	{ "step": "establish regular intervals to update on progress" }
-]
-},
 
 { "scenario": "make progress on project" },
-{ "steps": [
-	{ "step": "decide project critical requirements" },
-	{ "step": "determine budget" },
-	{ "step": "prioritize project requirements" },
-	{ "step": "allocate budget to requirements" },
-	{ "step": "assign lien items to vendors" },
-	{ "step": "track overall progress" },
 	{ "steps": [
-		{ "step": "track budget spent on line items" },
-		{ "step": "track progress on line items" },
-		{ "step": "track overall budget used" }
+		{ "step": "decide project critical requirements" },
+		{ "step": "determine budget" },
+		{ "step": "prioritize project requirements" },
+		{ "step": "allocate budget to requirements" },
+		{ "step": "assign lien items to vendors" },
+		{ "step": "track overall progress" },
+		{ "steps": [
+			{ "step": "track budget spent on line items" },
+			{ "step": "track progress on line items" },
+			{ "step": "track overall budget used" }
+		]},
+		{ "step": "test current project developments" },
+		{ "steps": [
+			{ "step": "document bugs" },
+			{ "step": "fix bugs" },
+			{ "step": "maintain successes" }
+		]},
+		{ "step": "update client at regular intervals" },
+		{ "step": "repriortize line items in collaboratoin with client" },
+		{ "step": "reallocate line item budgets as needed" },
+		{ "step": "redistribute line items to vendors" },
+		{ "step": "maintain project successes while continuing progression" },
+		{ "step": "publish product" },
+		{ "step": "continue tracking bugs after release" },
+		{ "step": "maintain successes while fixing new bugs" }
 	]},
-	{ "step": "test current project developments" },
-	{ "steps": [
-		{ "step": "document bugs" },
-		{ "step": "fix bugs" },
-		{ "step": "maintain successes" }
-	]},
-	{ "step": "update client at regular intervals" },
-	{ "step": "repriortize line items in collaboratoin with client" },
-	{ "step": "reallocate line item budgets as needed" },
-	{ "step": "redistribute line items to vendors" },
-	{ "step": "maintain project successes while continuing progression" },
-	{ "step": "publish product" },
-	{ "step": "continue tracking bugs after release" },
-	{ "step": "maintain successes while fixing new bugs" }
-]},
 
 {"scenario": "receive payment"},
-{ "steps": [
-	{ "step": "determine confidence level of receiving owed compensation" },
-	{ "step": "set appropriate billing schedule" },
-	{ "step": "maintain updated costs for accurate invoicing" },
-	{ "step": "send invoice for project costs" },
-	{ "step": "adjsut billing schedule if necessary" },
-		{ "questoins_to_consider": [
-			{ "question": "do we have a strong working relationship with the client?" },
-			{ "question": "is client frequently expressing doubt on invoiced line items?" },
-			{ "question": "is client expressing doubt in actual cost of certain line items?" },
-			{ "question": "is client consistently denying OwnSourcing is meeting project needs?" }
-		]},
-	{ "step": "send invoices according to adjsuted billing schedule" },
-	{ "step": "continue tracking costs" },
-	{ "step": "confirm receipt of payment" }
-	{ "step": "ensure profit to maintain business functionality" }
-]}
+	{ "steps": [
+		{ "step": "determine confidence level of receiving owed compensation" },
+		{ "step": "set appropriate billing schedule" },
+		{ "step": "maintain updated costs for accurate invoicing" },
+		{ "step": "send invoice for project costs" },
+		{ "step": "adjsut billing schedule if necessary" },
+			{ "questoins_to_consider": [
+				{ "question": "do we have a strong working relationship with the client?" },
+				{ "question": "is client frequently expressing doubt on invoiced line items?" },
+				{ "question": "is client expressing doubt in actual cost of certain line items?" },
+				{ "question": "is client consistently denying OwnSourcing is meeting project needs?" }
+			]},
+		{ "step": "send invoices according to adjsuted billing schedule" },
+		{ "step": "continue tracking costs" },
+		{ "step": "confirm receipt of payment" }
+		{ "step": "ensure profit to maintain business functionality" }
+	]}
 
 { "step": "through meeting client satisfaction, obtain referrals" },
 { "step": "win new business" }
