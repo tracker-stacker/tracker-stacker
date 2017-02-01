@@ -60,6 +60,7 @@
 	{ "step": "send invoices according to adjsuted billing schedule" },
 	{ "step": "continue tracking costs" },
 	{ "step": "confirm receipt of payment" }
+	{ "step": "ensure profit to maintain business functionality" }
 ]}
 
 { "step": "through meeting client satisfaction, obtain referrals" },
