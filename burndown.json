@@ -1,0 +1,66 @@
+[{
+	"scenario": "burndown chart of overal budget"
+},
+{
+	"steps": [{
+		"input": "total budget of project"
+	},
+	{
+		"input": "total length of project"
+	},
+	{
+		"process": "divide time and budget into weekly totals"
+	},
+	{
+		"output": "burndown chart of weekly budget spent"
+	},
+	{
+		"benefit": "regular overview of whether expenses and progress are matching"
+	}]
+},
+{
+	"scenario": "burndown chart of line line item progress"
+},
+{
+	"steps": [{
+		"input": "budget allocated to lien item"
+	},
+	{
+		"input": "estimated hours to complete line item"
+	},
+	{
+		"process": "budget on y-axis going from allocated amount up to 0"
+	},
+	{
+		"process": "estimated hours on x-axis from esimateion to 0"
+	},
+	{
+		"output": "track costs of line item against hours spent on line item"
+	},
+	{
+		"benefit": "know what line items are are burning through the budget"
+	}]
+},
+{
+	"scenario": "burndown chart of features developed"
+},
+{
+	"steps": [{
+		"input": "budget allocated to line item"
+	},
+	{
+		"input": "critical features of line item"
+	},
+	{
+		"process": "divide allocated budget by number of critical features"
+	},
+	{
+		"process": "provides amount of budget per feature"
+	},
+	{
+		"output": "track costs against required features per line item"
+	},
+	{
+		"benefit": "view progress of line item against costs of line item"
+	}]
+}]
