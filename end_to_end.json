@@ -82,6 +82,7 @@
 		{ "stepLevel": 0, "determine budget" },
 		{ "stepLevel": 0, "prioritize project requirements" },
 		{ "stepLevel": 0, "stay updated on overall progress" },
+		{ "stepLevel": 0, "stay updated on overall budget used" }, 
 	
 	]}, {
 	
@@ -92,7 +93,11 @@
 		{ "stepLevel": 0, "allocate budget to requirements" },
 		{ "stepLevel": 0, "assign line items to vendors" },
 		{ "stepLevel": 0, "track overall progress" },
-		
+			"steps": [
+			{ "stepLevel": 1, "track progress on line items" },
+			{ "stepLevel": 1, "track budget spent on line items" },
+			{ "stepLevel": 2, "track overall budget used" }
+			],
 	]
 	}, {
 	"comptroller": [
@@ -115,12 +120,20 @@
 	}, {
 	"vendor": [
 		{ "stepLevel": 0, "track overall progress" },
+		{ "stepLevel": 0, "track progress on assigned line items" },
 	]
 	}, {
 	"accountant": ""
 	}, {
 	"operations_manager": [
 		{ "stepLevel": 0, "understand budget allocations to requirements" },
+		{ "stepLevel": 0, "stay updated on business critical requirements" },
+			"steps": [
+			{ "stepLevel": 1, "know progress on critical line items" },
+			{ "stepLevel": 1, "know budget status on critical line items" },
+			{ "stepLevel": 1, "oversee successes to be maintained" }
+			],
+		{ "stepLevel": 0, "track proposed schedule against actual developments" }
 	]
 	}
 	
