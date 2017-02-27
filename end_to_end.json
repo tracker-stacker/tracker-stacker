@@ -69,52 +69,58 @@
 
 "roles": [{
 	"principal": [
-		{ "step": "initial contact with potential client" },
-		{ "step": "discover client business needs" },
-		{ "step": "initial meeting to discuss project" },
-		{ "steps": [
-			{ "step": "discover project lead contact" },
-			{ "step": "is project structure good fit for OwnSourcing?" },
-			{ "step": "discuss benefits of working with OwnSourcing" }
-		]},
-		{ "step": "win business" }
-		{ "step": "decide project critical requirements" }
-		{ "step": "determine budget" },
-		{ "step": "prioritize project requirements" },
+		{ "stepLevel": 0, "initial contact with potential client" },
+		{ "stepLevel": 0, "discover client business needs" },
+		{ "stepLevel": 0, "initial meeting to discuss project" },
+		"steps": [
+			{ "stepLevel": 1, "discover project lead contact" },
+			{ "stepLevel": 1, "is project structure good fit for OwnSourcing?" },
+			{ "stepLevel": 1, "discuss benefits of working with OwnSourcing" }
+		],
+		{ "stepLevel": 0, "win business" }
+		{ "stepLevel": 0, "decide project critical requirements" }
+		{ "stepLevel": 0, "determine budget" },
+		{ "stepLevel": 0, "prioritize project requirements" },
+		{ "stepLevel": 0, "stay updated on overall progress" },
+	
 	]}, {
+	
 	"project manager": [
-		{ "step": "establish regular intervals to update on progress" },
-		{ "step": "decide project critical requirements" },
-		{ "step": "prioritize project requirements" },
-		{ "step": "allocate budget to requirements" },
-		{ "step": "assign line items to vendors" },
-		{ "step": "track overall progress" },
+		{ "stepLevel": 0, "establish regular intervals to update on progress" },
+		{ "stepLevel": 0, "decide project critical requirements" },
+		{ "stepLevel": 0, "prioritize project requirements" },
+		{ "stepLevel": 0, "allocate budget to requirements" },
+		{ "stepLevel": 0, "assign line items to vendors" },
+		{ "stepLevel": 0, "track overall progress" },
 		
 	]
 	}, {
 	"comptroller": [
-		{ "step": "understand budget allocations to requirements" },
-		{ "step": "track overall budget" },
+		{ "stepLevel": 0, "understand budget allocations to requirements" },
+		{ "stepLevel": 0, "track overall budget" },
+			"steps": [
+			{ "stepLevel": 1, "track budget spent on line items" },
+			]
 	]
 	}, {
 	"client": [
-		{ "step": "decide project critical requirements" },
-		{ "step": "determine budget" },
+		{ "stepLevel": 0, "decide project critical requirements" },
+		{ "stepLevel": 0, "determine budget" },
 	]
 	}, {
 	"client project lead": [
-		{ "step": "decide project critical requirements" },
-		{ "step": "prioritize project requirements" },
+		{ "stepLevel": 0, "decide project critical requirements" },
+		{ "stepLevel": 0, "prioritize project requirements" },
 	]
 	}, {
 	"vendor": [
-		{ "step": "track overall progress" },
+		{ "stepLevel": 0, "track overall progress" },
 	]
 	}, {
 	"accountant": ""
 	}, {
 	"operations_manager": [
-		{ "step": "understand budget allocations to requirements" },
+		{ "stepLevel": 0, "understand budget allocations to requirements" },
 	]
 	}
 	
