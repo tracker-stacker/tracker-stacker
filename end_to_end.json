@@ -20,7 +20,7 @@
 		{ "step": "determine budget" },
 		{ "step": "prioritize project requirements" },
 		{ "step": "allocate budget to requirements" },
-		{ "step": "assign lien items to vendors" },
+		{ "step": "assign line items to vendors" },
 		{ "step": "track overall progress" },
 		{ "steps": [
 			{ "step": "track budget spent on line items" },
@@ -78,20 +78,44 @@
 			{ "step": "discuss benefits of working with OwnSourcing" }
 		]},
 		{ "step": "win business" }
+		{ "step": "decide project critical requirements" }
+		{ "step": "determine budget" },
+		{ "step": "prioritize project requirements" },
 	]}, {
-	"project manager": ""
+	"project manager": [
+		{ "step": "establish regular intervals to update on progress" },
+		{ "step": "decide project critical requirements" },
+		{ "step": "prioritize project requirements" },
+		{ "step": "allocate budget to requirements" },
+		{ "step": "assign line items to vendors" },
+		{ "step": "track overall progress" },
+		
+	]
 	}, {
-	"comptroller": ""
+	"comptroller": [
+		{ "step": "understand budget allocations to requirements" },
+		{ "step": "track overall budget" },
+	]
 	}, {
-	"client": ""
+	"client": [
+		{ "step": "decide project critical requirements" },
+		{ "step": "determine budget" },
+	]
 	}, {
-	"client project lead": ""
+	"client project lead": [
+		{ "step": "decide project critical requirements" },
+		{ "step": "prioritize project requirements" },
+	]
 	}, {
-	"vendor": ""
+	"vendor": [
+		{ "step": "track overall progress" },
+	]
 	}, {
 	"accountant": ""
 	}, {
-	"operations_manager": ""
+	"operations_manager": [
+		{ "step": "understand budget allocations to requirements" },
+	]
 	}
 	
 	
