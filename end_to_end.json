@@ -68,8 +68,17 @@
 ],
 
 "roles": [{
-	"prinpal": ""
-	}, {
+	"principal": [
+		{ "step": "initial contact with potential client" },
+		{ "step": "discover client business needs" },
+		{ "step": "initial meeting to discuss project" },
+		{ "steps": [
+			{ "step": "discover project lead contact" },
+			{ "step": "is project structure good fit for OwnSourcing?" },
+			{ "step": "discuss benefits of working with OwnSourcing" }
+		]},
+		{ "step": "win business" }
+	]}, {
 	"project manager": ""
 	}, {
 	"comptroller": ""
