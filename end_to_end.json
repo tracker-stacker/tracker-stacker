@@ -88,9 +88,10 @@
 	
 	"project manager": [
 		{ "stepLevel": 0, "establish regular intervals to update client on progress" },
-		{ "stepLevel": 0, "decide project critical requirements" },
+		{ "stepLevel": 0, "decide project critical line items" },
 		{ "stepLevel": 0, "develop project schedule" },
-		{ "stepLevel": 0, "allocate budget to requirements" },
+		{ "stepLevel": 0, "allocate budget to line items" },
+			{ "stepLevel": 1, "reallocate as needed" },
 		{ "stepLevel": 0, "assign line items to vendors" },
 		{ "stepLevel": 0, "oversee overall progress" },
 			"steps": [
@@ -110,7 +111,8 @@
 		{ "stepLevel": 0, "track overall budget" },
 			"steps": [
 			{ "stepLevel": 1, "track budget spent on line items" },
-			]
+			],
+		{ "stepLevel": 0, "foresee approaching budget adjustments" }
 	]
 	}, {
 	"client": [
@@ -150,6 +152,7 @@
 			{ "stepLevel": 1, "document bugs" },
 			{ "stepLevel": 0, "maintain successes" }
 			],
+		{ "stepLevel": 0, "foresee approaching budget adjustments" }
 	]
 	}
 	
