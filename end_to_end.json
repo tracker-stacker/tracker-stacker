@@ -29,9 +29,9 @@
 		]},
 		{ "step": "test current project developments" },
 		{ "steps": [
-			{ "step": "document bugs" },
-			{ "step": "fix bugs" },
-			{ "step": "maintain successes" }
+			{ "stepLevel": 1, "document bugs" },
+			{ "stepLevel": 1, "fix bugs" },
+			{ "stepLevel": 1, "maintain successes" }
 		]},
 		{ "step": "update client at regular intervals" },
 		{ "step": "repriortize line items in collaboratoin with client" },
@@ -67,7 +67,7 @@
 
 ],
 
-"key_stakeholders": [{
+"key_stakeholders_roles": [{
 	"principal": [
 		{ "stepLevel": 0, "initial contact with potential client" },
 		{ "stepLevel": 0, "discover client business needs" },
@@ -77,17 +77,17 @@
 			{ "stepLevel": 1, "is project structure good fit for OwnSourcing?" },
 			{ "stepLevel": 1, "discuss benefits of working with OwnSourcing" }
 		],
-		{ "stepLevel": 0, "win business" }
-		{ "stepLevel": 0, "decide project critical requirements" }
+		{ "stepLevel": 0, "win business" },
+		{ "stepLevel": 0, "decide project scope" },
 		{ "stepLevel": 0, "determine budget" },
-		{ "stepLevel": 0, "prioritize project requirements" },
-		{ "stepLevel": 0, "stay updated on overall progress" },
-		{ "stepLevel": 0, "stay updated on overall budget used" }, 
-	
+		{ "stepLevel": 1, "oversee development of project schedule" },
+		{ "stepLevel": 0, "monitor overall progress" },
+		{ "stepLevel": 0, "monitor overall budget usage" }, 
+		{ "stepLevel": 1, "update client on project status" },
 	]}, {
 	
 	"project manager": [
-		{ "stepLevel": 0, "establish regular intervals to update on progress" },
+		{ "stepLevel": 0, "establish regular intervals to update client on progress" },
 		{ "stepLevel": 0, "decide project critical requirements" },
 		{ "stepLevel": 0, "develop project schedule" },
 		{ "stepLevel": 0, "allocate budget to requirements" },
@@ -98,10 +98,15 @@
 			{ "stepLevel": 1, "track budget spent on line items" },
 			{ "stepLevel": 2, "track overall budget used" }
 			],
+		{ "stepLevel": 0, "test achieved developments" },
+			"steps" [
+			{ "stepLevel": 1, "document bugs" },
+			{ "stepLevel": 0, "maintain successes" }
+			],
 	]
 	}, {
 	"comptroller": [
-		{ "stepLevel": 0, "understand budget allocations to requirements" },
+		{ "stepLevel": 0, "oversee budget allocations to requirements" },
 		{ "stepLevel": 0, "track overall budget" },
 			"steps": [
 			{ "stepLevel": 1, "track budget spent on line items" },
@@ -121,6 +126,12 @@
 	"vendor": [
 		{ "stepLevel": 0, "track overall progress" },
 		{ "stepLevel": 0, "track progress on assigned line items" },
+		{ "stepLevel": 0, "test achieved developments" },
+			"steps" [
+			{ "stepLevel": 1, "document bugs" },
+			{ "stepLevel": 0, "fix bugs" }
+			{ "stepLevel": 0, "fix bugs" }
+			{ "stepLevel": 1, "maintain successes" }
 	]
 	}, {
 	"accountant": ""
@@ -134,6 +145,11 @@
 			{ "stepLevel": 1, "oversee successes to be maintained" }
 			],
 		{ "stepLevel": 0, "track proposed schedule against actual developments" }
+		{ "stepLevel": 0, "test achieved developments" },
+			"steps" [
+			{ "stepLevel": 1, "document bugs" },
+			{ "stepLevel": 0, "maintain successes" }
+			],
 	]
 	}
 	
