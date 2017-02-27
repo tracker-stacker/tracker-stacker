@@ -67,7 +67,7 @@
 
 ],
 
-"roles": [{
+"key_stakeholders": [{
 	"principal": [
 		{ "stepLevel": 0, "initial contact with potential client" },
 		{ "stepLevel": 0, "discover client business needs" },
@@ -89,10 +89,10 @@
 	"project manager": [
 		{ "stepLevel": 0, "establish regular intervals to update on progress" },
 		{ "stepLevel": 0, "decide project critical requirements" },
-		{ "stepLevel": 0, "prioritize project requirements" },
+		{ "stepLevel": 0, "develop project schedule" },
 		{ "stepLevel": 0, "allocate budget to requirements" },
 		{ "stepLevel": 0, "assign line items to vendors" },
-		{ "stepLevel": 0, "track overall progress" },
+		{ "stepLevel": 0, "oversee overall progress" },
 			"steps": [
 			{ "stepLevel": 1, "track progress on line items" },
 			{ "stepLevel": 1, "track budget spent on line items" },
