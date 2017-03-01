@@ -72,11 +72,11 @@
 		{ "stepLevel": 0, "initial contact with potential client" },
 		{ "stepLevel": 0, "discover client business needs" },
 		{ "stepLevel": 0, "initial meeting to discuss project" },
-		"steps": [
+		{ "steps": [
 			{ "stepLevel": 1, "discover project lead contact" },
 			{ "stepLevel": 1, "is project structure good fit for OwnSourcing?" },
 			{ "stepLevel": 1, "discuss benefits of working with OwnSourcing" }
-		],
+		]},
 		{ "stepLevel": 0, "win business" },
 		{ "stepLevel": 0, "decide project scope" },
 		{ "stepLevel": 0, "determine budget" },
@@ -94,24 +94,24 @@
 			{ "stepLevel": 1, "reallocate as needed" },
 		{ "stepLevel": 0, "assign line items to vendors" },
 		{ "stepLevel": 0, "oversee overall progress" },
-			"steps": [
+		{ "steps": [
 			{ "stepLevel": 1, "track progress on line items" },
 			{ "stepLevel": 1, "track budget spent on line items" },
 			{ "stepLevel": 2, "track overall budget used" }
-			],
+		]},
 		{ "stepLevel": 0, "test achieved developments" },
-			"steps" [
+		{ "steps" [
 			{ "stepLevel": 1, "document bugs" },
 			{ "stepLevel": 0, "maintain successes" }
-			],
+			]},
 	]
 	}, {
 	"comptroller": [
 		{ "stepLevel": 0, "oversee budget allocations to requirements" },
 		{ "stepLevel": 0, "track overall budget" },
-			"steps": [
+		{ "steps": [
 			{ "stepLevel": 1, "track budget spent on line items" },
-			],
+			]},
 		{ "stepLevel": 0, "foresee approaching budget adjustments" }
 	]
 	}, {
@@ -129,29 +129,29 @@
 		{ "stepLevel": 0, "track overall progress" },
 		{ "stepLevel": 0, "track progress on assigned line items" },
 		{ "stepLevel": 0, "test achieved developments" },
-			"steps" [
+		{ "steps" [
 			{ "stepLevel": 1, "document bugs" },
 			{ "stepLevel": 0, "fix bugs" }
 			{ "stepLevel": 0, "fix bugs" }
 			{ "stepLevel": 1, "maintain successes" }
-	]
+		]}
 	}, {
 	"accountant": ""
 	}, {
 	"operations_manager": [
 		{ "stepLevel": 0, "understand budget allocations to requirements" },
 		{ "stepLevel": 0, "stay updated on business critical requirements" },
-			"steps": [
+		{ "steps": [
 			{ "stepLevel": 1, "know progress on critical line items" },
 			{ "stepLevel": 1, "know budget status on critical line items" },
 			{ "stepLevel": 1, "oversee successes to be maintained" }
-			],
+			]},
 		{ "stepLevel": 0, "track proposed schedule against actual developments" }
 		{ "stepLevel": 0, "test achieved developments" },
-			"steps" [
+		{ "steps" [
 			{ "stepLevel": 1, "document bugs" },
 			{ "stepLevel": 0, "maintain successes" }
-			],
+			]},
 		{ "stepLevel": 0, "foresee approaching budget adjustments" }
 	]
 	}
