@@ -84,6 +84,7 @@
 		{ "stepLevel": 0, "monitor overall progress" },
 		{ "stepLevel": 0, "monitor overall budget usage" }, 
 		{ "stepLevel": 1, "update client on project status" },
+		{ "stepLevel": 0, "publish product" }
 	]}, {
 	
 	"project manager": [
@@ -104,25 +105,30 @@
 			{ "stepLevel": 1, "document bugs" },
 			{ "stepLevel": 0, "maintain successes" }
 			]},
-	]
-	}, {
+		{ "stepLevel": 0, "publish product" }
+		
+	]}, {
 	"comptroller": [
 		{ "stepLevel": 0, "oversee budget allocations to requirements" },
 		{ "stepLevel": 0, "track overall budget" },
 		{ "steps": [
 			{ "stepLevel": 1, "track budget spent on line items" },
+			{ "stepLevel": 2, "reserach costly line items" },
+			{ "stepLevel": 2, "make necessary adjustments" }
 			]},
 		{ "stepLevel": 0, "foresee approaching budget adjustments" }
 	]
 	}, {
 	"client": [
-		{ "stepLevel": 0, "decide project critical requirements" },
+		{ "stepLevel": 0, "sign off on project critical requirements" },
 		{ "stepLevel": 0, "determine budget" },
+		{ "stepLevel": 0, "accept/decline requested budget increases" }
 	]
 	}, {
 	"client project lead": [
 		{ "stepLevel": 0, "decide project critical requirements" },
 		{ "stepLevel": 0, "prioritize project requirements" },
+		{ "stepLevel": 0, "sign off on achieved project milestones" },
 	]
 	}, {
 	"vendor": [
@@ -144,7 +150,8 @@
 		{ "steps": [
 			{ "stepLevel": 1, "know progress on critical line items" },
 			{ "stepLevel": 1, "know budget status on critical line items" },
-			{ "stepLevel": 1, "oversee successes to be maintained" }
+			{ "stepLevel": 1, "oversee successes to be maintained" },
+			{ "stepLevel": 2, "ensure vendors are providing notes on line items" }
 			]},
 		{ "stepLevel": 0, "track proposed schedule against actual developments" }
 		{ "stepLevel": 0, "test achieved developments" },
@@ -152,7 +159,8 @@
 			{ "stepLevel": 1, "document bugs" },
 			{ "stepLevel": 0, "maintain successes" }
 			]},
-		{ "stepLevel": 0, "foresee approaching budget adjustments" }
+		{ "stepLevel": 0, "foresee approaching budget adjustments" },
+		{ "stepLevel": 0, "publish product" }
 	]
 	}
 	
