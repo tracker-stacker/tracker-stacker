@@ -1,5 +1,6 @@
 {
 	"key_stakeholders_roles": [{
+	"business_roles": [{
 		"principal": [{
 			"stepLevel": 0,
 			"step": "initial contact with potential client"
@@ -208,34 +209,6 @@
 		}]
 	},
 	{
-		"client": [{
-			"stepLevel": 0,
-			"step": "sign off on project critical requirements"
-		},
-		{
-			"stepLevel": 0,
-			"step": "determine budget"
-		},
-		{
-			"stepLevel": 0,
-			"step": "accept/decline requested budget increases"
-		}]
-	},
-	{
-		"client project lead": [{
-			"stepLevel": 0,
-			"step": "decide project critical requirements"
-		},
-		{
-			"stepLevel": 0,
-			"step": "prioritize project requirements"
-		},
-		{
-			"stepLevel": 0,
-			"step": "sign off on achieved project milestones"
-		}]
-	},
-	{
 		"vendor": [{
 			"stepLevel": 0,
 			"step": "track overall progress"
@@ -344,5 +317,33 @@
 			"stepLevel": 1,
 			"step": "adjust billing schedule if necessary"
 		}]
+	}]},
+	[{
+		"client": [{
+			"stepLevel": 0,
+			"step": "sign off on project critical requirements"
+		},
+		{
+			"stepLevel": 0,
+			"step": "determine budget"
+		},
+		{
+			"stepLevel": 0,
+			"step": "accept/decline requested budget increases"
+		}]
+	},
+	{
+		"client project lead": [{
+			"stepLevel": 0,
+			"step": "decide project critical requirements"
+		},
+		{
+			"stepLevel": 0,
+			"step": "prioritize project requirements"
+		},
+		{
+			"stepLevel": 0,
+			"step": "sign off on achieved project milestones"
+		}]
 	}]
-}
+]}
