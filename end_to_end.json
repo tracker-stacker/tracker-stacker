@@ -67,128 +67,130 @@
 
 ],
 
+{
 "key_stakeholders_roles": [{
 	"principal": [
-		{ "stepLevel": 0, "initial contact with potential client" },
-		{ "stepLevel": 0, "discover client business needs" },
-		{ "stepLevel": 0, "initial meeting to discuss project" },
+		{ "stepLevel": 0, "step": "initial contact with potential client" },
+		{ "stepLevel": 0, "step": "discover client business needs" },
+		{ "stepLevel": 0, "step": "initial meeting to discuss project" },
 		{ "steps": [
-			{ "stepLevel": 1, "discover project lead contact" },
-			{ "stepLevel": 1, "is project structure good fit for OwnSourcing?" },
-			{ "stepLevel": 1, "discuss benefits of working with OwnSourcing" }
+			{ "stepLevel": 1, "step": "discover project lead contact" },
+			{ "stepLevel": 1, "step": "is project structure good fit for OwnSourcing?" },
+			{ "stepLevel": 1, "step": "discuss benefits of working with OwnSourcing" }
 		]},
-		{ "stepLevel": 0, "win business" },
-		{ "stepLevel": 0, "decide project scope" },
-		{ "stepLevel": 0, "determine budget" },
-		{ "stepLevel": 1, "oversee development of project schedule" },
-		{ "stepLevel": 0, "monitor overall progress" },
-		{ "stepLevel": 0, "monitor overall budget usage" }, 
-		{ "stepLevel": 1, "update client on project status" },
-		{ "stepLevel": 0, "publish product" }
-		{ "stepLevel": 1, "determine confidence level of receiving owed compensation" },
-		{ "stepLevel": 1, "set appropriate billing schedule" },
-		{ "stepLevel": 0, "invoice client for project costs" },
-		{ "stepLevel": 2, "determine if billing schedule needs adjusting" }
+		{ "stepLevel": 0, "step": "win business" },
+		{ "stepLevel": 0, "step": "decide project scope" },
+		{ "stepLevel": 0, "step": "determine budget" },
+		{ "stepLevel": 1, "step": "oversee development of project schedule" },
+		{ "stepLevel": 0, "step": "monitor overall progress" },
+		{ "stepLevel": 0, "step": "monitor overall budget usage" }, 
+		{ "stepLevel": 1, "step": "update client on project status" },
+		{ "stepLevel": 0, "step": "publish product" },
+		{ "stepLevel": 1, "step": "determine confidence level of receiving owed compensation" },
+		{ "stepLevel": 1, "step": "set appropriate billing schedule" },
+		{ "stepLevel": 0, "step": "invoice client for project costs" },
+		{ "stepLevel": 2, "step": "determine if billing schedule needs adjusting" },
 			{ "questoins_to_consider": [
 				{ "question": "do we have a strong working relationship with the client?" },
 				{ "question": "is client frequently expressing doubt on invoiced line items?" },
 				{ "question": "is client expressing doubt in actual cost of certain line items?" },
 				{ "question": "is client consistently denying OwnSourcing is meeting project needs?" }
 			]},
-		{ "stepLevel": 0, "win new business" }
+		{ "stepLevel": 0, "step": "win new business" }
 	]}, {
 	
 	"project manager": [
-		{ "stepLevel": 0, "establish regular intervals to update client on progress" },
-		{ "stepLevel": 0, "decide project critical line items" },
-		{ "stepLevel": 0, "develop project schedule" },
-		{ "stepLevel": 0, "allocate budget to line items" },
-			{ "stepLevel": 1, "reallocate as needed" },
-		{ "stepLevel": 0, "assign line items to vendors" },
-		{ "stepLevel": 0, "oversee overall progress" },
+		{ "stepLevel": 0, "step": "establish regular intervals to update client on progress" },
+		{ "stepLevel": 0, "step": "decide project critical line items" },
+		{ "stepLevel": 0, "step": "develop project schedule" },
+		{ "stepLevel": 0, "step": "allocate budget to line items" },
+			{ "stepLevel": 1, "step": "reallocate as needed" },
+		{ "stepLevel": 0, "step": "assign line items to vendors" },
+		{ "stepLevel": 0, "step": "oversee overall progress" },
 		{ "steps": [
-			{ "stepLevel": 1, "track progress on line items" },
-			{ "stepLevel": 1, "track budget spent on line items" },
-			{ "stepLevel": 2, "track overall budget used" }
+			{ "stepLevel": 1, "step": "track progress on line items" },
+			{ "stepLevel": 1, "step": "track budget spent on line items" },
+			{ "stepLevel": 2, "step": "track overall budget used" }
 		]},
-		{ "stepLevel": 0, "test achieved developments" },
-		{ "steps" [
-			{ "stepLevel": 1, "document bugs" },
-			{ "stepLevel": 0, "maintain successes" }
+		{ "stepLevel": 0, "step": "test achieved developments" },
+		{ "steps": [
+			{ "stepLevel": 1, "step": "document bugs" },
+			{ "stepLevel": 0, "step": "maintain successes" }
 			]},
-		{ "stepLevel": 0, "publish product" },
-		{ "stepLevel": 1, "define expectations of maitenance period" },
-		{ "stepLevel": 1, "obtain referrals from satisfied client" }
+		{ "stepLevel": 0, "step": "publish product" },
+		{ "stepLevel": 1, "step": "define expectations of maitenance period" },
+		{ "stepLevel": 1, "step": "obtain referrals from satisfied client" }
 		
 	]}, {
 	"comptroller": [
-		{ "stepLevel": 0, "oversee budget allocations to requirements" },
-		{ "stepLevel": 0, "track overall budget" },
+		{ "stepLevel": 0, "step": "oversee budget allocations to requirements" },
+		{ "stepLevel": 0, "step": "track overall budget" },
 		{ "steps": [
-			{ "stepLevel": 1, "track budget spent on line items" },
-			{ "stepLevel": 2, "reserach costly line items" },
-			{ "stepLevel": 2, "make necessary adjustments" }
+			{ "stepLevel": 1, "step": "track budget spent on line items" },
+			{ "stepLevel": 2, "step": "reserach costly line items" },
+			{ "stepLevel": 2, "step": "make necessary adjustments" }
 			]},
-		{ "stepLevel": 0, "foresee approaching budget adjustments" },
-		{ "stepLevel": 0, "adjust budget allocations accordingly" },
-		{ "stepLevel": 0, "monitor costs to accurately invoice" },
-		{ "stepLevel": 1, "confirm receipt of payment" }
-		{ "stepLevel": 0, "ensure profit to maintain business functionality" }
+		{ "stepLevel": 0, "step": "foresee approaching budget adjustments" },
+		{ "stepLevel": 0, "step": "adjust budget allocations accordingly" },
+		{ "stepLevel": 0, "step": "monitor costs to accurately invoice" },
+		{ "stepLevel": 1, "step": "confirm receipt of payment" },
+		{ "stepLevel": 0, "step": "ensure profit to maintain business functionality" }
 		
 	]
 	}, {
 	"client": [
-		{ "stepLevel": 0, "sign off on project critical requirements" },
-		{ "stepLevel": 0, "determine budget" },
-		{ "stepLevel": 0, "accept/decline requested budget increases" }
+		{ "stepLevel": 0, "step": "sign off on project critical requirements" },
+		{ "stepLevel": 0, "step": "determine budget" },
+		{ "stepLevel": 0, "step": "accept/decline requested budget increases" }
 	]
 	}, {
 	"client project lead": [
-		{ "stepLevel": 0, "decide project critical requirements" },
-		{ "stepLevel": 0, "prioritize project requirements" },
-		{ "stepLevel": 0, "sign off on achieved project milestones" },
+		{ "stepLevel": 0, "step": "decide project critical requirements" },
+		{ "stepLevel": 0, "step": "prioritize project requirements" },
+		{ "stepLevel": 0, "step": "sign off on achieved project milestones" }
 	]
 	}, {
 	"vendor": [
-		{ "stepLevel": 0, "track overall progress" },
-		{ "stepLevel": 0, "track progress on assigned line items" },
-		{ "stepLevel": 0, "test achieved developments" },
-		{ "steps" [
-			{ "stepLevel": 0, "document bugs" },
-			{ "stepLevel": 0, "fix bugs" }
-			{ "stepLevel": 1, "maintain successes" }
+		{ "stepLevel": 0, "step": "track overall progress" },
+		{ "stepLevel": 0, "step": "track progress on assigned line items" },
+		{ "stepLevel": 0, "step": "test achieved developments" },
+		{ "steps": [
+			{ "stepLevel": 0, "step": "document bugs" },
+			{ "stepLevel": 0, "step": "fix bugs" },
+			{ "stepLevel": 1, "step": "maintain successes" }
 		]}
-	}, {
+	]}, {
 	"accountant": [
-		{ "stepLevel": 0, "ensure costs are audit-able" }
+		{ "stepLevel": 0, "step": "ensure costs are audit-able" }
 	]
 	}, {
 	"operations_manager": [
-		{ "stepLevel": 0, "understand budget allocations to requirements" },
-		{ "stepLevel": 0, "stay updated on business critical requirements" },
+		{ "stepLevel": 0, "step": "understand budget allocations to requirements" },
+		{ "stepLevel": 0, "step": "stay updated on business critical requirements" },
 		{ "steps": [
-			{ "stepLevel": 1, "know progress on critical line items" },
-			{ "stepLevel": 1, "know budget status on critical line items" },
-			{ "stepLevel": 1, "oversee successes to be maintained" },
-			{ "stepLevel": 2, "ensure vendors are providing notes on line items" }
+			{ "stepLevel": 1, "step": "know progress on critical line items" },
+			{ "stepLevel": 1, "step": "know budget status on critical line items" },
+			{ "stepLevel": 1, "step": "oversee successes to be maintained" },
+			{ "stepLevel": 2, "step": "ensure vendors are providing notes on line items" }
 			]},
-		{ "stepLevel": 0, "track proposed schedule against actual developments" }
-		{ "stepLevel": 1, "test achieved developments" },
-		{ "steps" [
-			{ "stepLevel": 1, "document bugs" },
-			{ "stepLevel": 1, "maintain successes" }
-			]},
-		{ "stepLevel": 0, "foresee approaching budget adjustments" },
+		{ "stepLevel": 0, "step": "track proposed schedule against actual developments" },
+		{ "stepLevel": 1, "step": "test achieved developments" },
 		{ "steps": [
-			{ "stepLevel": 1, "discover blockers to staying on planed budget" },
-			{ "stepLevel": 1, "propose adjustments or solutions" }
+			{ "stepLevel": 1, "step": "document bugs" },
+			{ "stepLevel": 1, "step": "maintain successes" }
 			]},
-		{ "stepLevel": 0, "publish product" },
-		{ "stepLevel": 0, "maintain updated costs for accurate invoicing" },
-		{ "stepLevel": 1, "invoice client for project costs" },
-		{ "stepLevel": 1, "adjust billing schedule if necessary" }
+		{ "stepLevel": 0, "step": "foresee approaching budget adjustments" },
+		{ "steps": [
+			{ "stepLevel": 1, "step": "discover blockers to staying on planed budget" },
+			{ "stepLevel": 1, "step": "propose adjustments or solutions" }
+			]},
+		{ "stepLevel": 0, "step": "publish product" },
+		{ "stepLevel": 0, "step": "maintain updated costs for accurate invoicing" },
+		{ "stepLevel": 1, "step": "invoice client for project costs" },
+		{ "stepLevel": 1, "step": "adjust billing schedule if necessary" }
 	]
-	}
+	
 	
 	
 }]
+}
