@@ -85,6 +85,9 @@
 		{ "stepLevel": 0, "monitor overall budget usage" }, 
 		{ "stepLevel": 1, "update client on project status" },
 		{ "stepLevel": 0, "publish product" }
+		{ "stepLevel": 1, "determine confidence level of receiving owed compensation" },
+		{ "stepLevel": 1, "set appropriate billing schedule" },
+		{ "stepLevel": 0, "invoice client for project costs" }
 	]}, {
 	
 	"project manager": [
@@ -116,7 +119,9 @@
 			{ "stepLevel": 2, "reserach costly line items" },
 			{ "stepLevel": 2, "make necessary adjustments" }
 			]},
-		{ "stepLevel": 0, "foresee approaching budget adjustments" }
+		{ "stepLevel": 0, "foresee approaching budget adjustments" },
+		{ "stepLevel": 0, "adjust budget allocations accordingly" },
+		{ "stepLevel": 0, "monitor costs to accurately invoice" }
 	]
 	}, {
 	"client": [
@@ -136,13 +141,14 @@
 		{ "stepLevel": 0, "track progress on assigned line items" },
 		{ "stepLevel": 0, "test achieved developments" },
 		{ "steps" [
-			{ "stepLevel": 1, "document bugs" },
-			{ "stepLevel": 0, "fix bugs" }
+			{ "stepLevel": 0, "document bugs" },
 			{ "stepLevel": 0, "fix bugs" }
 			{ "stepLevel": 1, "maintain successes" }
 		]}
 	}, {
-	"accountant": ""
+	"accountant": [
+		{ "stepLevel": 0, "ensure costs are audit-able" }
+	]
 	}, {
 	"operations_manager": [
 		{ "stepLevel": 0, "understand budget allocations to requirements" },
@@ -154,13 +160,19 @@
 			{ "stepLevel": 2, "ensure vendors are providing notes on line items" }
 			]},
 		{ "stepLevel": 0, "track proposed schedule against actual developments" }
-		{ "stepLevel": 0, "test achieved developments" },
+		{ "stepLevel": 1, "test achieved developments" },
 		{ "steps" [
 			{ "stepLevel": 1, "document bugs" },
-			{ "stepLevel": 0, "maintain successes" }
+			{ "stepLevel": 1, "maintain successes" }
 			]},
 		{ "stepLevel": 0, "foresee approaching budget adjustments" },
-		{ "stepLevel": 0, "publish product" }
+		{ "steps": [
+			{ "stepLevel": 1, "discover blockers to line item" },
+			{ "stepLevel": 1, "propose adjustments or solutions" }
+			]},
+		{ "stepLevel": 0, "publish product" },
+		{ "stepLevel": 0, "maintain updated costs for accurate invoicing" },
+		{ "stepLevel": 1, "invoice client for project costs" }
 	]
 	}
 	
