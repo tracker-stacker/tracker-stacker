@@ -1,0 +1,333 @@
+{
+	"process": "current system",
+	{
+		"scenario": "identified limitations",
+		{
+			"requirement": "Progress tracking",
+			{
+				"limitation": ["little sense of actual project progress",
+				"tracks costs - not project/line item progress",
+				"no distinction between in progress/completed line items",
+				"difficult to give client warning on needed adjustments"]
+			},
+			{
+				"limitation": ["limited client portal",
+				"lacking near real-time project updates",
+				"discourages client collaboration",
+				"client chases business owner for updates - diverts attention form project"]
+			}
+		}
+	},
+	{
+		"scenario": "proposed solutions",
+		{
+			"solution": "project tracking"{
+				"benefits": ["insights to actual progress of project",
+				"compare progress against costs",
+				"understand status of line items",
+				"effectively adjust budget",
+				"accurately update client"]
+			},
+			{
+				"business_policies": ["business must know actual project progress",
+				"business must have ability to accurately update client"]
+			},
+			{
+				"business_reports": ["where are we on 'x' line item?",
+				"do we need to allocate more resources to 'y' requirementnt?",
+				"how does our progress compare against costs?"]
+			}
+		},
+		{
+			"solution": "client portal",
+			{
+				"benefits": ["autonomously view updated project information in one place",
+				"regularly check current progress and costs",
+				"encourages collaboratoin on project"]
+			},
+			{
+				"business_policies": ["the client must be kept up-to-date on project",
+				"the client must be able to view project information with minimal instrusion into business operations"]
+			},
+			{
+				"business_reports": ["what are current project costs?",
+				"how are line items progressing?",
+				"do we need to reprioritize requirements?"]
+			}
+		}
+	}
+},
+{
+	"process": "tracker_stacker",
+	{
+		"scenario": "business processes",
+		{
+			"requirements": {
+				"requirement": "owner collaborates with client and develops a schedule of line items after defining project requirements. Line items are then assigned to vendors"
+			},
+			{
+				"requirement": "client controller and business owner define project budget. Budget is then allocated to specific line items."
+			},
+			{
+				"requirement": "Vendors receive line items and begin developing features as outlined in project schedule. Vendors submit their logged hours and updates on progress into the system. Owner monitors the project status."
+			},
+			{
+				"requirement": "Theprojectmanagertrackslineitemcosts, andensurestheprojectisprogressingattheprojectedrate.Otherwise, theprojectmanageradvisestheownertoadjustthebudgetaccordinglysocriticalrequirementsarestillacheived."
+			},
+			{
+				"requirement": "theownerestablishesabillingschedulewiththeclient.Projectcostsaccumulateasprogressismade.Atestablishedintervals,
+				orachievedmilestones,
+				theownerinvoicestheclientforcurrentcosts."
+			},
+			{
+				"requirement": "Whentheclientreceivesaninvoice,
+				theyevaluateiftheprojectprogressmatchestheaccruedcosts.Iftheybelievethecostsaredisproportionatetoactualprogress,
+				theclientmaypushback/askforclarificationoncosts.Theownermustthenprovidemoredetailsandinsightsintocosts.Iftheclientagreeswiththeinvoiceamount,
+				theclientpaystheinvoice."
+			},
+			{
+				"requirement": Acriticalrequirementmayhitcontinualblockerswhichmayrequirealargerportionofthebudgetthaninitiallyallocatedtocompletethelineitem.Ifanadjustmentisneeded,
+				theownermustapproachtheclientforapproval.Theclientmayeitherallocatemorefundstowardthelineitemfromotherlessimportantrequirements,
+				ortheclientcanapplypartofthecontingencybudget.Theownerthenupdatesthebudget.
+			}
+		}
+	},
+	{
+		"scenario": "business policy requirements",
+		{
+			"requirements": [{
+				"requirement": "owner must assign line items to vendors"
+			},
+			{
+				"requirement": "owner and client product owner must establish scope of project."
+			},
+			{
+				"requirements": "key stakeholders must identify critical requirements."
+			},
+			{
+				"requirement": "owner must allocate budget to line items."
+			},
+			{
+				"requirement": "business must track project costs to stay within budget."
+			},
+			{
+				"requirement": "vendors must provide updates on developments."
+			},
+			{
+				"requirement": "progress must be captured from vendor updates"
+			},
+			{
+				"requirement": "client needs automated, near real-time updates on project"
+			}]
+		}
+	},
+	{
+		"scenario": "business report requirements",
+		{
+			"requirements": [{
+				"requirement": "what is the current total costs of the project?"
+			},
+			{
+				"requirement": "what is the current per line item cost?"
+			},
+			{
+				"requirement": "what's our progress on 'x' requirement?"
+			},
+			{
+				"requirement": "Are we on track to complete the project under budget?"
+			},
+			{
+				"requirement": "where are budget adjustments needed?"
+			},
+			{
+				"requirement": "do we need to re prioritize requirements?"
+			},
+			{
+				"requirement": "what is the cost we should be invoicing the client?"
+			},
+			{
+				"requirement": "has the client paid us?"
+			},
+			{
+				"requirement": "can the client see up-to-date information"
+			}]
+		}
+	}
+}
+
+
+Use Case Information
+
+A.
+Actor
+Description
+Owner
+A business owner is a person who is overseeing the completion of the project.
+A business owner is a person who hires vendors to complete project requirements.
+Vendor
+A vendor is a person who is contracted to complete specific project requirements.
+Client
+A client is a person who hires a business owner to develop a project.
+
+B.
+No.
+Use Case
+Description
+1
+Develop features
+Any feature development begins with the owner assigning
+requirements to vendors to begin developing.
+2
+Develop Project
+Schedule
+A schedule of project requirements is developed when owner and
+client decide on critical requirements.
+3
+Track Project Costs
+As vendors submit costs, the owner monitors project costs and
+adjusts as necessary.
+4
+Bill Client
+When progress is made and costs accrue, the business bills the
+client for project costs.
+5
+Pay Business
+The client approves the billed amount, and the client  pays the
+business.
+6
+Define Project
+Budget
+Before a project begins, the owner and client must establish a
+budget.
+
+
+
+
+To-Be Use Case
+Description
+7
+Track Project
+Progress
+As costs accumulate, the owner needs to be able to compare
+project costs against actual project progress.
+8
+View Project
+Information
+The client can see current, up-to-date project information in a
+single portal.
+
+D.
+AS-IS
+Use Case: Develop features
+No
+Flow-Of-Events
+1
+Vendor is assigned line items.
+2
+Vendor begins developing.
+3
+Vendor informs owner of challenges and problems.
+4
+Vendor updates owner on progress.
+5
+Vendor competes development.
+
+
+
+Use Case:  Establish Project Schedule
+No
+Flow-of-Events
+1
+Owner establishes critical requirements
+2
+Client agrees to requirements and signs off on them.
+3
+Owner decides how to divide up required work.
+4
+Owner establishes a project schedule.
+5
+Owner assigns vendor�s specific requirements.
+
+Use Case: Track Project Cost
+No.
+Flow-Of-Events
+1
+Vendors work on requirements and track individual costs.
+2
+Vendors submit their time to the owner.
+3
+Owner accumulates tracked costs from all vendors.
+4
+Owner monitors project costs.
+5
+Owner ensures project is staying under budget.
+
+Use Case: Bill Client
+No.
+Flow-of-Events
+1
+Owner decides how frequently to bill client.
+2
+Owner & vendor log costs while working on project.
+3
+Owner accumulates all current project costs.
+4
+Owner sends client an invoice.
+
+Use Case: Pay Business
+No.
+Flow-of-Events
+1
+Client receives project invoice.
+2
+Client reviews costs against perceived progress.
+3
+If approved, client pays business for completed work.
+
+Use Case: Define Project Budget
+No.
+Flow-of-Events
+1
+Client provides business with budget limit.
+2
+Owner allocates budget to project requirements.
+3
+Owner adjusts budget allocations as necessary.
+4
+Owner may request budget increase.
+5
+Client defines contingency budget upon request or declines request.
+6
+Owner draws from contingency budget.
+
+?
+TO-BE
+Use Case: Track Project Progress
+No.
+Flow-of-Events
+1.
+Business begins work on project requirements.
+2.
+Business achieves progress and costs accumulate.
+3
+Vendors submit updates on features developed and progress on requirements.
+4
+Requirement progress is tracked through multiple performance indicators and
+aggregated progress updates.
+5
+Owner runs reports on different indicators (i.e. burndown chart) to view actual project
+progress.
+
+Use Case: Client views Project Information
+No.
+Flow-of-Events
+1
+Client orders work on project
+2
+Business tracks project through online service
+3
+Business sends client�s portal link
+4
+Client logs into client portal
+5
+Client receives up-to-date information on status of project in one place.
