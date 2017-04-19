@@ -72,23 +72,16 @@
 				"requirement": "Vendors receive line items and begin developing features as outlined in project schedule. Vendors submit their logged hours and updates on progress into the system. Owner monitors the project status."
 			},
 			{
-				"requirement": "Theprojectmanagertrackslineitemcosts, andensurestheprojectisprogressingattheprojectedrate.Otherwise, theprojectmanageradvisestheownertoadjustthebudgetaccordinglysocriticalrequirementsarestillacheived."
+				"requirement": "The project manager tracks line item costs, and ensure costs and the project are progressing at the expected rate. Otherwise, the project manager advises the owner to adjust the budget accordingly in order to meet critical requirements."
 			},
 			{
-				"requirement": "theownerestablishesabillingschedulewiththeclient.Projectcostsaccumulateasprogressismade.Atestablishedintervals,
-				orachievedmilestones,
-				theownerinvoicestheclientforcurrentcosts."
+				"requirement": "the owner establishes a billing schedule with the client. As time is logged and costs accumulate, progress is made on the project. At predetermined intervals, or when milestones are met, the owner invoices the client for current costs."
+				},
+			{
+				"requirement": "when the client receives an invoice, they evaluate if the project progress matches the accrued costs. If they believe the costs are disproportionate to actual progress, the client may push back/ask for clarification on costs. The owner must then provide more details and insights into costs. If the client agrees with the invoice amount, the client pays the business."
 			},
 			{
-				"requirement": "Whentheclientreceivesaninvoice,
-				theyevaluateiftheprojectprogressmatchestheaccruedcosts.Iftheybelievethecostsaredisproportionatetoactualprogress,
-				theclientmaypushback/askforclarificationoncosts.Theownermustthenprovidemoredetailsandinsightsintocosts.Iftheclientagreeswiththeinvoiceamount,
-				theclientpaystheinvoice."
-			},
-			{
-				"requirement": Acriticalrequirementmayhitcontinualblockerswhichmayrequirealargerportionofthebudgetthaninitiallyallocatedtocompletethelineitem.Ifanadjustmentisneeded,
-				theownermustapproachtheclientforapproval.Theclientmayeitherallocatemorefundstowardthelineitemfromotherlessimportantrequirements,
-				ortheclientcanapplypartofthecontingencybudget.Theownerthenupdatesthebudget.
+				"requirement": "A critical requirement may hit continual blockers which may require a larger portion of the budget than initially allocated to complete the line item. If an adjustment is needed, the owner must approach the client for approval. The client may either allocate more funds toward the line item from other less important requirements, or the client can apply part of the contingency budget. The owner then updates the budget."
 			}
 		}
 	},
