@@ -1,0 +1,60 @@
+{
+	"process": "tracker-stacker overview",
+	{
+		"description": "tracker-stacker is designed to enable agile practicioners to better track project performance. It pulls project information across multiple sources into a single platform. Tracker-stacker gives immediate access to KPIs at a glance allowing businesses to more effectively manage projects."
+	},
+	{
+		"scenario": "key stakeholder interactions",
+		{
+			"stakeholder_interactions": [
+			"business owner",
+			{
+				"input": "assigns line items"
+			},
+			{
+				"system_output": "project costs and progress"
+			},
+			"client",
+			{
+				"input": "collaborates on project"
+			},
+			{
+				"system_output": "view project updates"
+			},
+			"vendors",
+			{
+				"input": "update progress and time"
+			},
+			{
+				"system_output": "receive assigned line items"
+			}]
+		}
+	},
+	{
+		"scenario": "key use cases",
+		{
+			"use_cases": ["business",
+			{
+				"goals": ["track project costs",
+				{
+					"description": "business can effectively monitor project costs through integration of time tracking platform."
+				},
+				"track project progress",
+				{
+					"description": "by pulling costs and line item development, the business gains insight to progress"
+				},
+				"collaborate on project",
+				{
+					"description": "giving client access to updated project information facilitates collaboration"
+				}]
+			},
+			"client",
+			{
+				"goal": "collaborate on project",
+				{
+					"description": "client has access to up-to-date information. Client can advise business on evolving project requirements."
+				}
+			}]
+		}
+	}
+}
