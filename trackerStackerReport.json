@@ -114,6 +114,109 @@
 			"effectively adjust budget",
 			"automated client updates"
 		}
+	},
+	{
+		"scenario": "use case descriptions",
+		{
+			"use_cases": {
+				"use_case": "collaborate on project requirements",
+				{
+					"included": "assign line items"
+				},
+				{
+					"stakeholders": "client product owner",
+					"business owner"
+				},
+				{
+					"description": "the client product owner and business owner collaboratively develop an approved, actionable project schedule. From there, the owner then assigns line items to vendors."
+				},
+				{
+					"requirements": "the project needs a clearly defined set of requirements",
+					"the owner must assign line items for vendors to begin development"
+				}
+			},
+			{
+				"use_case": "log hours on task development",
+				"update progress on line items",
+				"indicate level of effort"["actors": "vendors"],
+				{
+					"description": "Vendors receive assigned line items from business owner. Vendors then begin development"
+				},
+				{
+					"requirements": "Vendors must log hours and costs associated with progress",
+					"vendors must give updates on line item progress",
+					"vendors must indicate the actual level of effort spent on development"
+				}
+			},
+			{
+				"use_case": "track project progress",
+				{
+					"extended": "adjsut project schedule"
+				},
+				"track project costs",
+				{
+					"extended": "adjust budget"
+				},
+				{
+					"actors": "business owner",
+					"project manager"
+				},
+				{
+					"description": "As development progresses, the project owner needs to track project costs and progress. If there is an adjustment needed, the PM should alert the owner. THe owner then decides how to adjust priorities and budget."
+				},
+				{
+					"requirements": "project costs must be captured",
+					"project progress must be captured",
+					"PM and owner need views of accurate, updated information."
+				}
+			},
+			{
+				"use_case": "view project updates",
+				{
+					"actors": "client",
+					"business owner"
+				},
+				{
+					"description": "the client needs to autonomously view project information. the information needs to be up-to-date. this allows the business to continue working on the project.",
+					"the business owner needs to view updated information in order to make necessary adjustments, track the project, update the client, and accurately invoice"
+				},
+				{
+					"requirements": "the client must receive project updates for collaboration",
+					"the business owner must see updated project information to manage the project.",
+					"project updates must be recorded by vendors and accumulated"
+				}
+			},
+			{
+				"use_case": "generate reports",
+				{
+					"actors": "business owner"
+				},
+				{
+					"description": "the business owner needs the ability to generate relevant project reports with up-to-date information."
+				},
+				{
+					"requirements": "project progress must be captured",
+					"project costs must be captured",
+					"system must have capability to generate useful reports"
+				}
+			},
+			{
+				"use_case": "invoice client",
+				"pay business",
+				{
+					"actors": "business owner",
+					"client controller"
+				},
+				{
+					"description": "the business needs the ability to quickly invoice the client for current costs.",
+					"the client needs the ability to review and pay the invoice"
+				},
+				{
+					"requirements": "system must import current unbilled costs to an invoice",
+					"client must be able to review and pay invoice through system"
+				}
+			}
+		}
 	}
 }
 
