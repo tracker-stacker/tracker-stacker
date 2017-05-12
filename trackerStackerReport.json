@@ -33,86 +33,86 @@
 		{
 			"solutions": {
 				"solution": "track progress",
-				"benefits": "accurately update client on progress",
+				"benefits": ["accurately update client on progress",
 				"predict upcoming budget adjustments",
-				"compare progress against costs",
-				{
-					"requirements": "business must know actual project progress",
+				"compare progress against costs"],
+				
+					"requirements": ["business must know actual project progress",
 					"business must have ability to accurately update client",
 					"business must track project progress to stay within budget.",
-					"progress must be captured from vendor updates"
-				},
-				{
-					"reports": "how does our progress compare against costs?",
+					"progress must be captured from vendor updates"]
+				,
+				
+					"reports": ["how does our progress compare against costs?",
 					"what's our progress on 'x' requirement?",
-					"do we need to allocate more resources to 'y' requirementnt?"
-				}
+					"do we need to allocate more resources to 'y' requirementnt?"]
+				
 			},
 			{
 				"solution": "track line item costs",
-				"benefits": "know remaining line item budget",
-				"insights to costly line items",
-				{
-					"requirements": "budget must be allocated to line items.",
+				"benefits": ["know remaining line item budget",
+				"insights to costly line items"],
+				
+					"requirements": ["budget must be allocated to line items.",
 					"business must track project costs to stay within budget.",
-					"vendors must provide updates on developments."
-				},
-				{
-					"reports": "what is the current per line item cost?",
-					"do we need to allocate more resources to 'y' requirementnt?"
-				}
+					"vendors must provide updates on developments."]
+				,
+				
+					"reports": ["what is the current per line item cost?",
+					"do we need to allocate more resources to 'y' requirementnt?"]
+				
 			},
 			{
 				"solution": "aggregate budget overview",
-				"benefits": "identify remaining budget",
+				"benefits": ["identify remaining budget",
 				"adjust requirement priority",
 				"saves time through aggregating line item costs",
-				"quicker, more accurate client updates",
-				{
+				"quicker, more accurate client updates"],
+				
 					"requirements": "business must track project costs to stay within budget."
-				},
-				{
-					"reports": "what is the current total costs of the project?",
-					"Are we on track to complete the project under budget?"
-				}
+				,
+				
+					"reports": ["what is the current total costs of the project?",
+					"Are we on track to complete the project under budget?"]
+				
 			},
 			{
 				"solution": "portable data",
-				"benefits": "no lock-in",
-				"integration with other services"
+				"benefits": ["no lock-in",
+				"integration with other services"]
 			},
 			{
 				"solution": "import costs to invoice",
-				"benefits": "invoice proper amount",
-				"audit-able",
-				{
+				"benefits": ["invoice proper amount",
+				"audit-able"]
+				
 					"requirements": "what is the current total costs of the project?"
-				},
-				{
+				,
+				
 					"reports": "what amount should we bill the client?"
-				}
+				
 			},
 			{
 				"solution": "client portal",
-				"benefits": "autonomously view updated project information in one place",
+				"benefits": ["autonomously view updated project information in one place",
 				"regularly check current progress and costs",
-				"encourages collaboratoin on project",
-				{
-					"requirements": "client needs automated, near real-time updates on project",
-					"the client must be able to view project information with minimal instrusion into business operations"
-				},
-				{
-					"reports": "what are current project costs?",
+				"encourages collaboratoin on project"],
+				
+					"requirements": ["client needs automated, near real-time updates on project",
+					"the client must be able to view project information with minimal instrusion into business operations"]
+				,
+				
+					"reports": ["what are current project costs?",
 					"how are line items progressing?",
-					"do we need to reprioritize requirements?"
-				}
+					"do we need to reprioritize requirements?"]
+				
 			}
 		},
 		{
-			"summary": "insights to actual progress of project",
+			"summary": ["insights to actual progress of project",
 			"understand status of line items",
 			"effectively adjust budget",
-			"automated client updates"
+			"automated client updates"]
 		}
 	},
 	{
