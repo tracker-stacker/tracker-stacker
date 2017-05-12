@@ -10,19 +10,19 @@
 			{
 				"limitations": "little sense of actual project progress",
 				{
-					"embedded": "tracks costs - not project/line item progress",
+					"embedded": ["tracks costs - not project/line item progress",
 					"no distinction between in progress/completed line items",
-					"difficult to give client warning on needed adjustments"
+					"difficult to give client warning on needed adjustments"]
 				}
 			},
-			{
+			
 				"requirement": "client portal",
 				{
 					"limitations": "limited client portal",
 					{
-						"embedded": "lacking near real-time project updates",
+						"embedded": ["lacking near real-time project updates",
 						"discourages client collaboration",
-						"client chases business owner for updates - diverts attention form project"
+						"client chases business owner for updates - diverts attention form project"]
 					}
 				}
 			}
