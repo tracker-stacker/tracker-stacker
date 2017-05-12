@@ -8,26 +8,20 @@
 				"limitation": "information spread across multiple platforms"
 			},
 			{
-				"limitations": "little sense of actual project progress",
-				{
-					"embedded": ["tracks costs - not project/line item progress",
-					"no distinction between in progress/completed line items",
-					"difficult to give client warning on needed adjustments"]
-				}
+				"limitation": "little sense of actual project progress",
+				"description": ["tracks costs - not project/line item progress",
+				"no distinction between in progress/completed line items",
+				"difficult to give client warning on needed adjustments"]
 			},
-			
-				"requirement": "client portal",
-				{
-					"limitations": "limited client portal",
-					{
-						"embedded": ["lacking near real-time project updates",
-						"discourages client collaboration",
-						"client chases business owner for updates - diverts attention form project"]
-					}
-				}
+			"requirement": "client portal",
+			{
+				"limitation": "limited client portal",
+				"description": ["lacking near real-time project updates",
+				"discourages client collaboration",
+				"client chases business owner for updates - diverts attention form project"]
 			}
 		}
-	,
+	},
 	{
 		"scenario": "proposed solutions",
 		{
@@ -36,31 +30,23 @@
 				"benefits": ["accurately update client on progress",
 				"predict upcoming budget adjustments",
 				"compare progress against costs"],
-				
-					"requirements": ["business must know actual project progress",
-					"business must have ability to accurately update client",
-					"business must track project progress to stay within budget.",
-					"progress must be captured from vendor updates"]
-				,
-				
-					"reports": ["how does our progress compare against costs?",
-					"what's our progress on 'x' requirement?",
-					"do we need to allocate more resources to 'y' requirementnt?"]
-				
+				"requirements": ["business must know actual project progress",
+				"business must have ability to accurately update client",
+				"business must track project progress to stay within budget.",
+				"progress must be captured from vendor updates"],
+				"reports": ["how does our progress compare against costs?",
+				"what's our progress on 'x' requirement?",
+				"do we need to allocate more resources to 'y' requirementnt?"]
 			},
 			{
 				"solution": "track line item costs",
 				"benefits": ["know remaining line item budget",
 				"insights to costly line items"],
-				
-					"requirements": ["budget must be allocated to line items.",
-					"business must track project costs to stay within budget.",
-					"vendors must provide updates on developments."]
-				,
-				
-					"reports": ["what is the current per line item cost?",
-					"do we need to allocate more resources to 'y' requirementnt?"]
-				
+				"requirements": ["budget must be allocated to line items.",
+				"business must track project costs to stay within budget.",
+				"vendors must provide updates on developments."],
+				"reports": ["what is the current per line item cost?",
+				"do we need to allocate more resources to 'y' requirementnt?"]
 			},
 			{
 				"solution": "aggregate budget overview",
@@ -68,13 +54,9 @@
 				"adjust requirement priority",
 				"saves time through aggregating line item costs",
 				"quicker, more accurate client updates"],
-				
-					"requirements": "business must track project costs to stay within budget."
-				,
-				
-					"reports": ["what is the current total costs of the project?",
-					"Are we on track to complete the project under budget?"]
-				
+				"requirements": "business must track project costs to stay within budget.",
+				"reports": ["what is the current total costs of the project?",
+				"Are we on track to complete the project under budget?"]
 			},
 			{
 				"solution": "portable data",
@@ -84,28 +66,20 @@
 			{
 				"solution": "import costs to invoice",
 				"benefits": ["invoice proper amount",
-				"audit-able"]
-				
-					"requirements": "what is the current total costs of the project?"
-				,
-				
-					"reports": "what amount should we bill the client?"
-				
+				"audit-able"],
+				"requirements": "what is the current total costs of the project?",
+				"reports": "what amount should we bill the client?"
 			},
 			{
 				"solution": "client portal",
 				"benefits": ["autonomously view updated project information in one place",
 				"regularly check current progress and costs",
 				"encourages collaboratoin on project"],
-				
-					"requirements": ["client needs automated, near real-time updates on project",
-					"the client must be able to view project information with minimal instrusion into business operations"]
-				,
-				
-					"reports": ["what are current project costs?",
-					"how are line items progressing?",
-					"do we need to reprioritize requirements?"]
-				
+				"requirements": ["client needs automated, near real-time updates on project",
+				"the client must be able to view project information with minimal instrusion into business operations"],
+				"reports": ["what are current project costs?",
+				"how are line items progressing?",
+				"do we need to reprioritize requirements?"]
 			}
 		},
 		{
@@ -123,31 +97,21 @@
 				{
 					"included": "assign line items"
 				},
-				
-					"stakeholders": ["client product owner",
-					"business owner"]
-				,
-				
-					"description": "the client product owner and business owner collaboratively develop an approved, actionable project schedule. From there, the owner then assigns line items to vendors."
-				,
-				
-					"requirements": ["the project needs a clearly defined set of requirements",
-					"the owner must assign line items for vendors to begin development"]
-				
+				"stakeholders": ["client product owner",
+				"business owner"],
+				"description": "the client product owner and business owner collaboratively develop an approved, actionable project schedule. From there, the owner then assigns line items to vendors.",
+				"requirements": ["the project needs a clearly defined set of requirements",
+				"the owner must assign line items for vendors to begin development"]
 			},
 			{
 				"use_case": ["log hours on task development",
 				"update progress on line items",
 				"indicate level of effort"],
 				"stakeholders": "vendors",
-				
-					"description": "Vendors receive assigned line items from business owner. Vendors then begin development"
-				,
-				
-					"requirements": ["Vendors must log hours and costs associated with progress",
-					"vendors must give updates on line item progress",
-					"vendors must indicate the actual level of effort spent on development"]
-				
+				"description": "Vendors receive assigned line items from business owner. Vendors then begin development",
+				"requirements": ["Vendors must log hours and costs associated with progress",
+				"vendors must give updates on line item progress",
+				"vendors must indicate the actual level of effort spent on development"]
 			},
 			{
 				"use_case": ["track project progress",
@@ -156,69 +120,43 @@
 				},
 				"track project costs",
 				{
-					"extended": "adjust budget"
-				]},
-				
-					"stakeholders": ["business owner",
-					"project manager"]
-				,
-				
-					"description": "As development progresses, the project owner needs to track project costs and progress. If there is an adjustment needed, the PM should alert the owner. THe owner then decides how to adjust priorities and budget."
-				,
-				
-					"requirements": ["project costs must be captured",
-					"project progress must be captured",
-					"PM and owner need views of accurate, updated information."]
-				
+					"extended": "adjust budget"]
+				},
+				"stakeholders": ["business owner",
+				"project manager"],
+				"description": "As development progresses, the project owner needs to track project costs and progress. If there is an adjustment needed, the PM should alert the owner. THe owner then decides how to adjust priorities and budget.",
+				"requirements": ["project costs must be captured",
+				"project progress must be captured",
+				"PM and owner need views of accurate, updated information."]
 			},
 			{
 				"use_case": "view project updates",
-				
-					"stakeholders": ["client",
-					"business owner"]
-				,
-				
-					"description": "the client needs to autonomously view project information. the information needs to be up-to-date. this allows the business to continue working on the project.",
-					"the business owner needs to view updated information in order to make necessary adjustments, track the project, update the client, and accurately invoice"
-				,
-				
-					"requirements": ["the client must receive project updates for collaboration",
-					"the business owner must see updated project information to manage the project.",
-					"project updates must be recorded by vendors and accumulated"]
-				
+				"stakeholders": ["client",
+				"business owner"],
+				"description": "the client needs to autonomously view project information. the information needs to be up-to-date. this allows the business to continue working on the project.",
+				"the business owner needs to view updated information in order to make necessary adjustments, track the project, update the client, and accurately invoice",
+				"requirements": ["the client must receive project updates for collaboration",
+				"the business owner must see updated project information to manage the project.",
+				"project updates must be recorded by vendors and accumulated"]
 			},
 			{
 				"use_case": "generate reports",
-				
-					"stakeholders": "business owner"
-				,
-				
-					"description": "the business owner needs the ability to generate relevant project reports with up-to-date information."
-				,
-				
-					"requirements": ["project progress must be captured",
-					"project costs must be captured",
-					"system must have capability to generate useful reports"]
-				
+				"stakeholders": "business owner",
+				"description": "the business owner needs the ability to generate relevant project reports with up-to-date information.",
+				"requirements": ["project progress must be captured",
+				"project costs must be captured",
+				"system must have capability to generate useful reports"]
 			},
 			{
 				"use_case": ["invoice client",
 				"pay business"],
-				
-					"stakeholders": ["business owner",
-					"client controller"]
-				,
-				
-					"description": ["the business needs the ability to quickly invoice the client for current costs.",
-					"the client needs the ability to review and pay the invoice"]
-				,
-				
-					"requirements": ["system must import current unbilled costs to an invoice",
-					"client must be able to review and pay invoice through system"]
-				
+				"stakeholders": ["business owner",
+				"client controller"],
+				"description": ["the business needs the ability to quickly invoice the client for current costs.",
+				"the client needs the ability to review and pay the invoice"],
+				"requirements": ["system must import current unbilled costs to an invoice",
+				"client must be able to review and pay invoice through system"]
 			}
 		}
 	}
 }
-
-	
