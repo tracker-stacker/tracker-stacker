@@ -1,26 +1,23 @@
 {
-	"process": "tracker-stacker",
-	{
+	"tracker_stacker": {
 		"scenario": "identified limitations",
+		"requirements": ["Project tracking",
 		{
-			"requirement": "Project tracking",
+			"limitations": ["information spread across multiple platforms",
+			"little sense of actual project progress",
 			{
-				"limitation": "information spread across multiple platforms"
-			},
-			{
-				"limitation": "little sense of actual project progress",
 				"description": ["tracks costs - not project/line item progress",
 				"no distinction between in progress/completed line items",
 				"difficult to give client warning on needed adjustments"]
-			},
-			"requirement": "client portal",
-			{
-				"limitation": "limited client portal",
-				"description": ["lacking near real-time project updates",
-				"discourages client collaboration",
-				"client chases business owner for updates - diverts attention form project"]
-			}
-		}
+			}]
+		},
+		"client portal",
+		{
+			"limitation": "limited client portal",
+			"description": ["lacking near real-time project updates",
+			"discourages client collaboration",
+			"client chases business owner for updates - diverts attention form project"]
+		}]
 	},
 	{
 		"scenario": "proposed solutions",
