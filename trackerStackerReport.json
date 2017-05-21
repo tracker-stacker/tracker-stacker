@@ -1,5 +1,5 @@
 {
-	"tracker_stacker": {
+	"tracker_stacker": [{
 		"scenario": "identified limitations",
 		"requirements": ["Project tracking",
 		{
@@ -21,8 +21,8 @@
 	},
 	{
 		"scenario": "proposed solutions",
-		{
-			"solutions": {
+		
+			"solutions": [{
 				"solution": "track progress",
 				"benefits": ["accurately update client on progress",
 				"predict upcoming budget adjustments",
@@ -78,7 +78,7 @@
 				"how are line items progressing?",
 				"do we need to reprioritize requirements?"]
 			}
-		},
+		}],
 		{
 			"summary": ["insights to actual progress of project",
 			"understand status of line items",
@@ -88,8 +88,8 @@
 	},
 	{
 		"scenario": "use case descriptions",
-		{
-			"use_cases": {
+		
+			"use_cases": [{
 				"use_case": "collaborate on project requirements",
 				{
 					"included": "assign line items"
@@ -154,6 +154,6 @@
 				"requirements": ["system must import current unbilled costs to an invoice",
 				"client must be able to review and pay invoice through system"]
 			}
-		}
+		]}
 	}
-}
+}]
