@@ -190,34 +190,32 @@
 				"step": "ensure profit to maintain business functionality"
 			}]
 		},
-	{
-		"vendor": [{
-			"stepLevel": 0,
-			"step": "track overall progress"
-		},
 		{
-			"stepLevel": 0,
-			"step": "track progress on assigned line items"
-		},
-		{
-			"stepLevel": 0,
-			"step": "test achieved developments"
-		},
-		{
-			"steps": [{
+			"vendor": [{
 				"stepLevel": 0,
-				"step": "document bugs"
-			},
-			{
-				"stepLevel": 0,
-				"step": "fix bugs"
+				"step": "develop assigned line items"
 			},
 			{
 				"stepLevel": 1,
-				"step": "maintain successes"
+				"step": "update progress"
+			},
+			{
+				"stepLevel": 0,
+				"step": "test developments",
+				"_embedded": [{
+					"stepLevel": 1,
+					"step": "document bugs"
+				},
+				{
+					"stepLevel": 1,
+					"step": "fix bugs"
+				},
+				{
+					"stepLevel": 1,
+					"step": "maintain successes"
+				}]
 			}]
-		}]
-	},
+		},
 	{
 		"accountant": [{
 			"stepLevel": 0,
