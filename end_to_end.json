@@ -148,50 +148,48 @@
 				"step": "obtain referrals from satisfied client"
 			}]
 		},
-	{
-		"comptroller": [{
-			"stepLevel": 0,
-			"step": "oversee budget allocations to requirements"
-		},
 		{
-			"stepLevel": 0,
-			"step": "track overall budget"
-		},
-		{
-			"steps": [{
+			"comptroller": [{
+				"stepLevel": 0,
+				"step": "oversee budget allocations to requirements"
+			},
+			{
+				"stepLevel": 0,
+				"step": "track overall budget",
+				"_embedded": [{
+					"stepLevel": 1,
+					"step": "track budget spent on line items"
+				},
+				{
+					"stepLevel": 2,
+					"step": "reserach costly line items"
+				},
+				{
+					"stepLevel": 2,
+					"step": "make necessary adjustments"
+				}]
+			},
+			{
+				"stepLevel": 0,
+				"step": "foresee approaching budget adjustments",
+				"_embedded": {
+					"stepLevel": 1,
+					"step": "adjust budget allocations accordingly"
+				}
+			},
+			{
+				"stepLevel": 0,
+				"step": "monitor costs to accurately invoice"
+			},
+			{
 				"stepLevel": 1,
-				"step": "track budget spent on line items"
+				"step": "confirm receipt of payment"
 			},
 			{
-				"stepLevel": 2,
-				"step": "reserach costly line items"
-			},
-			{
-				"stepLevel": 2,
-				"step": "make necessary adjustments"
+				"stepLevel": 0,
+				"step": "ensure profit to maintain business functionality"
 			}]
 		},
-		{
-			"stepLevel": 0,
-			"step": "foresee approaching budget adjustments"
-		},
-		{
-			"stepLevel": 0,
-			"step": "adjust budget allocations accordingly"
-		},
-		{
-			"stepLevel": 0,
-			"step": "monitor costs to accurately invoice"
-		},
-		{
-			"stepLevel": 1,
-			"step": "confirm receipt of payment"
-		},
-		{
-			"stepLevel": 0,
-			"step": "ensure profit to maintain business functionality"
-		}]
-	},
 	{
 		"vendor": [{
 			"stepLevel": 0,
