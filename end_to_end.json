@@ -11,10 +11,9 @@
 		},
 		{
 			"stepLevel": 0,
-			"step": "initial meeting to discuss project"
-		},
-		{
-			"steps": [{
+			"step": "initial meeting to discuss project",
+			
+			"_embedded": [{
 				"stepLevel": 1,
 				"step": "discover project lead contact"
 			},
@@ -60,40 +59,35 @@
 			"step": "publish product"
 		},
 		{
-			"stepLevel": 1,
-			"step": "determine confidence level of receiving owed compensation"
-		},
-		{
-			"stepLevel": 1,
-			"step": "set appropriate billing schedule"
-		},
-		{
 			"stepLevel": 0,
 			"step": "invoice client for project costs"
 		},
 		{
 			"stepLevel": 2,
-			"step": "determine if billing schedule needs adjusting"
-		},
+			"step": "determine confidence level of receiving owed compensation",
+		
+			"_embedded": { "step": "set appropriate billing schedule"
+		}},
 		{
-			"questoins_to_consider": [{
-				"question": "do we have a strong working relationship with the client?"
-			},
-			{
-				"question": "is client frequently expressing doubt on invoiced line items?"
-			},
-			{
-				"question": "is client expressing doubt in actual cost of certain line items?"
-			},
-			{
-				"question": "is client consistently denying OwnSourcing is meeting project needs?"
-			}]
+			"stepLevel": 2,
+			"step": "determine if billing schedule needs adjusting",
+		
+			"questoins_to_consider": [
+				"do we have a strong working relationship with the client?"
+		,
+			
+				"is client frequently expressing doubt on invoiced line items?"
+			,
+			
+				 "is client expressing doubt in actual cost of certain line items?"
+			,
+			
+				"is client consistently denying OwnSourcing is meeting project needs?"
+			]
 		},
-		{
-			"stepLevel": 0,
-			"step": "win new business"
-		}]
+		]
 	},
+	
 	{
 		"project manager": [{
 			"stepLevel": 0,
