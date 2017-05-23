@@ -75,8 +75,7 @@
 				"is client frequently expressing doubt on invoiced line items?",
 				"is client expressing doubt in actual cost of certain line items?",
 				"is client consistently denying OwnSourcing is meeting project needs?"]
-			},
-			]
+			}]
 		},
 		{
 			"project manager": [{
@@ -216,88 +215,92 @@
 				}]
 			}]
 		},
-	{
-		"accountant": [{
-			"stepLevel": 0,
-			"step": "ensure costs are audit-able"
+		{
+			"accountant": {
+				"stepLevel": 0,
+				"step": "ensure costs are audit-able"
+			}
+		},
+		{
+			"operations_manager": [{
+				"stepLevel": 0,
+				"step": "understand budget allocations to requirements"
+			},
+			{
+				"stepLevel": 0,
+				"step": "stay updated on business critical requirements",
+				"_embedded": [{
+					"stepLevel": 1,
+					"step": "know progress on critical line items"
+				},
+				{
+					"stepLevel": 1,
+					"step": "know budget status on critical line items"
+				},
+				{
+					"stepLevel": 1,
+					"step": "oversee successes to be maintained"
+				},
+				{
+					"stepLevel": 2,
+					"step": "ensure vendors are providing notes on line items"
+				}]
+			},
+			{
+				"stepLevel": 0,
+				"step": "track proposed schedule against actual developments"
+			},
+			{
+				"stepLevel": 1,
+				"step": "test developments",
+				"_embedded": [{
+					"stepLevel": 1,
+					"step": "document bugs"
+				},
+				{
+					"stepLevel": 1,
+					"step": "maintain successes"
+				}]
+			},
+			{
+				"stepLevel": 0,
+				"step": "foresee approaching budget adjustments",
+				"_embedded": [{
+					"stepLevel": 1,
+					"step": "discover blockers to staying on planed budget"
+				},
+				{
+					"stepLevel": 1,
+					"step": "propose adjustments or solutions"
+				}]
+			},
+			{
+				"stepLevel": 0,
+				"step": "publish product"
+			},
+			{
+				"stepLevel": 1,
+				"step": "maintain updated costs for accurate invoicing"
+			},
+			{
+				"stepLevel": 1,
+				"step": "invoice client for project costs",
+				"_embedded": [{
+					"stepLevel": 2,
+					"step": "determine confidence level of receiving owed compensation",
+					
+				},
+				{
+					"stepLevel": 2,
+					"step": "determine if billing schedule needs adjusting",
+					"questoins_to_consider": ["do we have a strong working relationship with the client?",
+					"is client frequently expressing doubt on invoiced line items?",
+					"is client expressing doubt in actual cost of certain line items?",
+					"is client consistently denying OwnSourcing is meeting project needs?"]
+				}]
+			}]
 		}]
 	},
-	{
-		"operations_manager": [{
-			"stepLevel": 0,
-			"step": "understand budget allocations to requirements"
-		},
-		{
-			"stepLevel": 0,
-			"step": "stay updated on business critical requirements"
-		},
-		{
-			"steps": [{
-				"stepLevel": 1,
-				"step": "know progress on critical line items"
-			},
-			{
-				"stepLevel": 1,
-				"step": "know budget status on critical line items"
-			},
-			{
-				"stepLevel": 1,
-				"step": "oversee successes to be maintained"
-			},
-			{
-				"stepLevel": 2,
-				"step": "ensure vendors are providing notes on line items"
-			}]
-		},
-		{
-			"stepLevel": 0,
-			"step": "track proposed schedule against actual developments"
-		},
-		{
-			"stepLevel": 1,
-			"step": "test achieved developments"
-		},
-		{
-			"steps": [{
-				"stepLevel": 1,
-				"step": "document bugs"
-			},
-			{
-				"stepLevel": 1,
-				"step": "maintain successes"
-			}]
-		},
-		{
-			"stepLevel": 0,
-			"step": "foresee approaching budget adjustments"
-		},
-		{
-			"steps": [{
-				"stepLevel": 1,
-				"step": "discover blockers to staying on planed budget"
-			},
-			{
-				"stepLevel": 1,
-				"step": "propose adjustments or solutions"
-			}]
-		},
-		{
-			"stepLevel": 0,
-			"step": "publish product"
-		},
-		{
-			"stepLevel": 0,
-			"step": "maintain updated costs for accurate invoicing"
-		},
-		{
-			"stepLevel": 1,
-			"step": "invoice client for project costs"
-		},
-		{
-			"stepLevel": 1,
-			"step": "adjust billing schedule if necessary"
-		}]
-	}]},
 	[{
 		"acceptance_team_roles": [{
 			"stepLevel": 0,
