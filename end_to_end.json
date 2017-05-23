@@ -1,92 +1,83 @@
 {
 	"key_stakeholders_roles": [{
-	"business_roles": [{
-		"principal": [{
-			"stepLevel": 0,
-			"step": "initial contact with potential client"
-		},
-		{
-			"stepLevel": 0,
-			"step": "discover client business needs"
-		},
-		{
-			"stepLevel": 0,
-			"step": "initial meeting to discuss project",
-			
-			"_embedded": [{
-				"stepLevel": 1,
-				"step": "discover project lead contact"
+		"delivery_team_roles": [{
+			"principal": [{
+				"stepLevel": 0,
+				"step": "initial contact with potential client"
+			},
+			{
+				"stepLevel": 0,
+				"step": "discover client business needs"
+			},
+			{
+				"stepLevel": 0,
+				"step": "initial meeting to discuss project",
+				"_embedded": [{
+					"stepLevel": 1,
+					"step": "discover project lead contact"
+				},
+				{
+					"stepLevel": 1,
+					"step": "is project structure good fit for OwnSourcing?"
+				},
+				{
+					"stepLevel": 1,
+					"step": "discuss benefits of working with OwnSourcing"
+				}]
+			},
+			{
+				"stepLevel": 0,
+				"step": "win business"
+			},
+			{
+				"stepLevel": 0,
+				"step": "decide project scope"
+			},
+			{
+				"stepLevel": 0,
+				"step": "determine budget"
 			},
 			{
 				"stepLevel": 1,
-				"step": "is project structure good fit for OwnSourcing?"
+				"step": "oversee development of project schedule"
+			},
+			{
+				"stepLevel": 0,
+				"step": "monitor overall progress"
+			},
+			{
+				"stepLevel": 0,
+				"step": "monitor overall budget usage"
 			},
 			{
 				"stepLevel": 1,
-				"step": "discuss benefits of working with OwnSourcing"
-			}]
-		},
-		{
-			"stepLevel": 0,
-			"step": "win business"
-		},
-		{
-			"stepLevel": 0,
-			"step": "decide project scope"
-		},
-		{
-			"stepLevel": 0,
-			"step": "determine budget"
-		},
-		{
-			"stepLevel": 1,
-			"step": "oversee development of project schedule"
-		},
-		{
-			"stepLevel": 0,
-			"step": "monitor overall progress"
-		},
-		{
-			"stepLevel": 0,
-			"step": "monitor overall budget usage"
-		},
-		{
-			"stepLevel": 1,
-			"step": "update client on project status"
-		},
-		{
-			"stepLevel": 0,
-			"step": "publish product"
-		},
-		{
-			"stepLevel": 0,
-			"step": "invoice client for project costs"
-		},
-		{
-			"stepLevel": 2,
-			"step": "determine confidence level of receiving owed compensation",
-		
-			"_embedded": { "step": "set appropriate billing schedule"
-		}},
-		{
-			"stepLevel": 2,
-			"step": "determine if billing schedule needs adjusting",
-		
-			"questoins_to_consider": [
-				"do we have a strong working relationship with the client?"
-		,
-			
-				"is client frequently expressing doubt on invoiced line items?"
-			,
-			
-				 "is client expressing doubt in actual cost of certain line items?"
-			,
-			
-				"is client consistently denying OwnSourcing is meeting project needs?"
+				"step": "update client on project status"
+			},
+			{
+				"stepLevel": 0,
+				"step": "publish product"
+			},
+			{
+				"stepLevel": 0,
+				"step": "invoice client for project costs"
+			},
+			{
+				"stepLevel": 2,
+				"step": "determine confidence level of receiving owed compensation",
+				"_embedded": {
+					"step": "set appropriate billing schedule"
+				}
+			},
+			{
+				"stepLevel": 2,
+				"step": "determine if billing schedule needs adjusting",
+				"questoins_to_consider": ["do we have a strong working relationship with the client?",
+				"is client frequently expressing doubt on invoiced line items?",
+				"is client expressing doubt in actual cost of certain line items?",
+				"is client consistently denying OwnSourcing is meeting project needs?"]
+			},
 			]
 		},
-		]
-	},
 	
 	{
 		"project manager": [{
@@ -313,7 +304,7 @@
 		}]
 	}]},
 	[{
-		"client": [{
+		"acceptance_team_roles": [{
 			"stepLevel": 0,
 			"step": "sign off on project critical requirements"
 		},
